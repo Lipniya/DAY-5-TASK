@@ -1,0 +1,73 @@
+1).JSON Resume DATA
+{
+    "settings": {
+        "icons" : true
+    },
+    "firstname": "P.Lipniya",
+    "github_id": "Lipniya",
+    "bio_data": {
+        "email": "lipniya@gmail.com",
+        "phone": "8777665544",
+	"summary": {
+		"points":[
+		"Hard worker, quick learner, and Responsible"
+		]
+	},
+        "skills": {
+            "details": [
+                {
+                    "type": "Programming Languages",
+                    "items": [
+                        "Html",
+                        "css",
+                        "react j.s",
+                        "Javascript",
+                    ]
+                },
+                {
+                    "type": "Databases",
+                    "items": [
+                        "MySQL",
+                        "MongoDB",
+                    ]
+                }
+            ]
+        },
+        "education": {
+	    "show_gpa": true,
+            "schools": [
+                {
+                    "degree": "Bachelor of science in mathematics",
+                    "institution": "mother therasa university",
+                    "graduation_year": 2021,
+                }
+            ]
+        },
+        "extra_curricular": {
+            "items": [
+                "2 star coder at codechef",
+            ]
+        },
+		   ]
+	},
+    }
+}
+
+
+2_). For the given JSON iterate over all for loops (for, for in, for of, forEach)
+
+var text -[{
+"id":"1",
+"message":"hi"
+},
+{
+"id":"2",
+"message":"hello"
+}],
+var arr=["Ajith","Lipniya"];
+console.log(text);
+for(vari=0;i<text.length;i++){
+var obj=text[i],
+console.log(obj.id+" "+obj.message);
+}
+
